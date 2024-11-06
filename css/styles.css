@@ -1,0 +1,27 @@
+/** FUENTES IMPORTADAS **/
+
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oleo+Script:wght@400;700&display=swap');
+
+ /** VARIABLES **/
+
+:root {
+    --color-principal: #280046;
+    --color-secundario: #A734FF;
+    --color-terciario: #F6BFFF;
+
+    --fuente-titulos: "Oleo Script", system-ui;
+    --fuente-secundario: "Nunito", serif;
+    --border-cards: 19px;
+}
+
+ /** RESET **/
+
+ * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+ }
+
+  /** PÁGINA PRINCIPAL **/
