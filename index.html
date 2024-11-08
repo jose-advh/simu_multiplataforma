@@ -23,30 +23,37 @@
     <main class="main">
         <section class="main__section">
             <article class="main__info">
-                <section class="main__redes">
-                    <a href="#" class="main__item">
-                        <img src="imgs/icons/icon_facebook.png" class="main__icon" alt="Logotipo de facebook">
-                    </a>
-                    <a href="#" class="main__item">
-                        <img src="imgs/icons/icon_instagram.png" class="main__icon" alt="Logotipo de instagram">
-                    </a>
-                    <a href="#" class="main__item">
-                        <img src="imgs/icons/icon_whatsapp.png" class="main__icon" alt="Logotipo de whatsapp">
-                    </a>
-                    <a href="#" class="main__item">
-                        <img src="imgs/icons/icon_youtube.png"  class="main__icon"alt="Logotipo de youtube">
-                    </a>
-                </section>
+                <ul class="main__redes">
+                    <li class="main__item">
+                        <a href="#" class="main__link" aria-label="Ir a Facebook">
+                            <img src="imgs/icons/icon_facebook.png" class="main__icon" alt="Logotipo de facebook">
+                        </a>
+                    </li>
+                    <li class="main__item">
+                        <a href="#" class="main__link" aria-label="Ir a Instagram">
+                            <img src="imgs/icons/icon_instagram.png" class="main__icon" alt="Logotipo de instagram">
+                        </a>
+                    </li>
+                    <li class="main__item">
+                        <a href="#" class="main__link" aria-label="Ir a Whatsapp">
+                            <img src="imgs/icons/icon_whatsapp.png" class="main__icon" alt="Logotipo de whatsapp">
+                        </a>
+                    </li>
+                    <li class="main__item">
+                        <a href="#" class="main__link" aria-label="Ir a Youtube">
+                            <img src="imgs/icons/icon_youtube.png"  class="main__icon"alt="Logotipo de youtube">
+                        </a>
+                    </li>
+                </ul>
                 <h1 class="main__title">
                     EL MEJOR <span class="main__span">PRE-ICFES</span>
                 </h1>
                 <p class="main__text">
                     Simu te lleva al éxito en el Saber 11 con simulacros completos y gratuitos. ¡Descubre tu potencial ahora!
                 </p>
-
                 <section class="main__buttons">
                     <a href="#" class="main__button">COMENZAR</a>
-                    <a href="#" class="main__button main__button-border">TEST INICIAL</a>
+                    <a href="#" class="main__button main__button--outlined">TEST INICIAL</a>
                 </section>
             </article>
             <img src="imgs/people/chica_birrete.png" class="main__img" alt="Chica con un birrete y regalos">
@@ -57,11 +64,31 @@
         </section>
 
         <section class="main__contact">
-            <article>
-                hola mundo
-            </article>
+                <form action="#" class="main__form">
+                    <h2 class="form__title">CONTÁCTANOS</h2>
+                    
+                    <div>
+                        <input type="text" class="main__input" name="username" placeholder="Nombre">
+                        <hr>
+                    </div>
+                    <div>
+                        <input type="email" class="main__input" name="email" placeholder="Correo">
+                        <hr>
+                    </div>
+                    <div>
+                        <textarea name="message" class="main__input main__input--textarea" placeholder="Mensaje"></textarea>
+                        <hr>
+                    </div>
+
+                    <input type="submit" class="main__button">
+                </form>
         </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        
+        <section class="medio" style="width: 100%; height: 10vh; background-color: purple;">
+
+        </section>
+    </footer>
 </body>
 </html>
