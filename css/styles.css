@@ -252,6 +252,14 @@
     font-weight: bold;
 }
 
+.card__button {
+    padding: 1rem;
+    color: white;
+    width: 10rem;
+    border-radius: var(--border-cards);
+    background-color: var(--color-principal);
+}
+
 .main__contact {
     padding-top: 4rem;
     display: flex;
