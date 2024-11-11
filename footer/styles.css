@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer {
+    background-color: #290A48;
+    color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer__logo {
+    width: 218px;
+    height: 50px;
+    color: #600883;
+    font-family: 'Oleo Script', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 50px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: -30px; 
+}
+
+.footer__logo--somos {
+    color: #F6BFFF;
+}
+
+.footer__logo--simu {
+    color: #FFFFFF;
+}
+
+.footer__menu {
+    width: 165px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+.footer__menu-item {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer__info {
+    width: 638px;
+    height: 100px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.1px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-left: auto;
+}
+
+@media (max-width: 800px) {
+    .footer__logo {
+        display: none;
+    }
+
+    .footer__menu {
+        width: 83px;
+        height: auto;
+        font-size: 16px;
+        line-height: 30px;
+        align-items: flex-start;
+        margin: 0;
+        padding-left: 5px;
+        order: 1;
+    }
+
+    .footer__info {
+        width: 235px;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.1px;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 0;
+        order: 2;
+    }
+}
